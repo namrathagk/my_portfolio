@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo">Portfolio website</a>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="flex-cont">
+    <div id="home">
+      <h1>Hello , this is <span> Namratha GK    </span>    </h1>
+      <h2 id = "alt">Im a passionate web developer</h2>
+              
+
+      <p>An engineering fresher who is very much passionate about coding ,eager to discove and explore the technical fields.I find joy in
+         turning imaginary ideas into real life and innovative solutions ! Beyond this i hold a keen interest in arduino technology
+        showcasing my abilities to bing creative ideas to life through functional devices.</p>
+      <!-- <div class="social-media">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+          viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+          viewBox="0 0 16 16">
+          <path
+            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+        </svg>
+        
+      </div> -->
+    </div>
+    <div class="image-container">
+      <img
+        src="https://media.licdn.com/dms/image/D5603AQG_5MUAn69Q4Q/profile-displayphoto-shrink_800_800/0/1697420380863?e=1711584000&v=beta&t=VhnK63Pvk137Y9FQcAed4dyvdcxX7QmocDz5CCVKtPc">
+
+    </div>
+
+
+
+  </div>
+  </div>
+
+  <div id="about">
+    <div class="flex2">
+      <img id = "sliding-photo"
+        src="https://media.licdn.com/dms/image/D5603AQG_5MUAn69Q4Q/profile-displayphoto-shrink_800_800/0/1697420380863?e=1711584000&v=beta&t=VhnK63Pvk137Y9FQcAed4dyvdcxX7QmocDz5CCVKtPc">
+
+    </div>
+
+    <div class="text">
+      <h1>About <span>Me</span> </h1>
+
+      <p>Hello! I'm Namratha, a third-year BE student on an exciting journey of coding and discovery. Proficient in
+        languages like C, Java, and web technologies, I'm a passionate about exploing technological fields.
+        <br>
+        <br>
+
+        Beyond this i hold a keen interest in embedded systems and Arduino technology,showcasing my abilities to bing
+        creative ideas to life through functional devices.
+        <br>
+        <br>
+
+        I am open to oppotunities that allows me to contribute my skills in this exciting and evolving technical field.
+        As a strong believer in continuous learning, I'm like a sponge, absorbing insights from tutorials, books, and
+        the vibrant developer community.
+
+      </p>
+
+      <button id="btn-readmore">Read more</button>
+      <div id="more-content" style="display: none;">
+        <p>As an accomplished professional with a keen interest and passion for innovation, i bring diverse skill set to
+          every project
+          i undertake. I have honed my expertise in project management, leading teams and coordination.
+          <br>
+          <br>
+          My ability to adapt quickly to new challenges,coupled with strong communication and leadership skills, enables
+          me to thrive
+          in dynamic environments.
+          <br>
+          Im eager to contribute my talents to this innovative field and drive success through collaboration and
+          creativity.
+          <br>
+          <br>
+          Beyond this I am interested in other things like drawing, listening to music and travelling which I consider
+          as a recreation
+          for me as well as my passion.
+
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <h1 class="h1">My <span>skills</span></h1>
+  <div id="skills">
+    <div class="box1">
+      <h2>Web Development</h2>
+      <p>A passionate web developer who loves crafting captivating online experiences.
+        With some expertise in HTML, CSS, and JavaScript, I love to create beautiful and functional websites.
+        <br>
+        <br>
+
+        I have learnt working with MongoDB, MySQL and NoSQL, I'm also delving into server-side programming with Node.js React and
+        Express. Currently,Im working on MERN stack project to develop a full-fledged backend website.Very much eager and excited to 
+        complete my upcoming projects!  
+      </p>
+    </div>
+    <div class="box2">
+      <h2>Data Structures</h2>
+      <p>In my resume, I showcase my expertise in data structures and algorithms (DSA). 
+        Proficient in implementing DSA concepts in various programming languages, including Java, 
+        I demonstrate the ability to analyze, design, and optimize algorithms for efficient problem-solving. 
+        With a strong foundation in DSA, I excel in tackling complex computational challenges and optimizing 
+        the performance of software systems. Continuously honing my skills through practice and exploration, 
+        I am committed to leveraging DSA knowledge to develop innovative solutions and drive impactful outcomes 
+        in software development projects.</p>
+    </div>
+    <div class="box3">
+      <h2>Java & OOPS</h2>
+      <p>
+        On my resume, I highlight my proficiency in Java programming and object-oriented programming (OOP) skills. 
+        With a solid foundation in Java, I demonstrate the ability to design, develop, and maintain robust software solutions. 
+        My expertise in OOP principles allows me to create modular, scalable, and maintainable code, enhancing the efficiency and 
+        flexibility of software systems. 
+        Through practical application and continuous learning, I strive to leverage Java and OOP concepts to solve complex problems and
+         contribute effectively to project success.
+      </p>
+    </div>
+
+  </div>
+  </div>
+
+  <h2 class="photos">My <span class="proj">Projects</span></h2>
+
+  <div id="projects">
+    <div class="portfolio-box" data-sr-id="7"
+      style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+      <img class="images" src="https://cdn.dribbble.com/users/2492784/screenshots/9165657/media/7c0febeb919e33c4161283046de327eb.png" alt="">
+      <h5>A Portfolio website</h5>
+      <div class="portfolio-layer">
+
+        <a href="https://nikhilhegde989.github.io/nikhilhegde989/#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box" data-sr-id="8"
+      style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+      <img class="images"
+        src="https://uicookies.com/wp-content/uploads/2018/03/prantokon-free-landing-page-templates.jpg" alt="">
+      <h5>A Landing Page Website</h5>
+      
+      <div class="portfolio-layer">
+
+        <a href="#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box" data-sr-id="9"
+      style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+      <img class="images" src="https://www.techstrot.com/wp-content/uploads/2021/09/Python-Projects-for-Beginners.jpg"
+        alt="">
+        <a href ="https://github.com/namrathagk/namrathagk/blob/main/Contact%20book"><h5> Python projects</h5></a>
+        
+      
+      <div class="portfolio-layer">
+      </div>
+
+    </div>
+    
+
+  </div>
+  <div class="hr">
+    <hr class="horizontal-line">
+
+  </div>
+
+
+
+  </div>
+  
+  <div id="Contact">
+    <div class="label">Namratha's portfolio</div>
+    <a href="mailto:namrathagk1711@gmail.com">Email</a>
+    <a
+      href="https://www.linkedin.com/in/namratha-gk-3390b1257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+    <a href="https://leetcode.com/progress/">LeetCode</a>
+
+
+  </div>
+
+
+  </div>
+</div>
+
+
+
+  <footer>Copyright © 2023 by Namratha GK | All Rights Reserved.</footer>
+
+
+
+
+
+  <script src="./index.js"></script>
+
+
+</body>
+
+</html>
